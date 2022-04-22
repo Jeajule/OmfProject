@@ -153,3 +153,30 @@ figcaption{
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+
+/***********************
+****     Footer     ****
+***********************/
+footer{
+    background: #353535;
+    padding: 25px;
+}
+
+footer img{
+    width: 20%;
+    filter: invert(100%);
+}
+
+.links{
+display: flex;
+flex-direction: column;
+
+}
+
+footer a{
+color: white;
+margin-top: 10px;
+}
