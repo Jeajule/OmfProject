@@ -15,21 +15,48 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 li {
     list-style-type: none;
+}
+a {
+    text-decoration: inherit;
+    color:black;
+}
+
+header h1{
+    margin: 0;
 }
 
 .logo {
     display: flex;
     justify-content: center;
     margin: 5px 0px 5px 0px;
+    font-family: "Shrikhand", sans-serif; ;
 }
 
 .logo img{
     width: 50%;
 }
+
+/****************************************
+****     Chargement page d'accueil   ****
+*****************************************/
+
+/*.load{
+    background: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;   
+    animation-duration: 2s;
+}*/
+
 
 /***********************
 ****     Search   ****
@@ -43,7 +70,7 @@ li {
     box-shadow: inset 0px 5px 5px 0px #dddddd;
 }
 
-.search-input{
+.search-input input{
     border: none;
     background: #eaeaea;
     font-size: 1rem;
@@ -51,9 +78,7 @@ li {
     margin-top: 5px;
     text-align: center;
     width: 150px;
-
 }
-
 
 /***********************
 ****      About     ****
@@ -65,11 +90,41 @@ li {
     width: 100%;
     padding: 40px 0;
 }
+.about h2{
+    
+    margin: 10px 20px 10px 20px;
+}
 
+.about p{
+    color:#aaa;
+    margin: 10px 20px 30px 20px;
+}
+
+
+.about button{
+    background-image:linear-gradient(#ff79da,#9356dc );
+    color: #fff;
+    box-shadow: 1px 2px 8px 2px #c4c4c4;
+    cursor: pointer;
+    border: inherit;
+    border-radius: 30px;
+    font-size: 100%;
+    width: 200px;
+    height: 50px;
+}
+
+.about button:hover{
+    opacity: 0.8;
+    box-shadow: 1px 2px 8px 2px #2d2c2c;
+}
 
 /***********************
 ****   Operation    ****
 ***********************/
+
+.operation h2{
+    margin-left: 40px;
+}
 
 .operation-steps li {
     display: flex;
@@ -78,10 +133,18 @@ li {
     align-items: center;
     flex-wrap: nowrap;
     padding: 25px;
-    margin: 15px 20px 15px 30px;
-    border-radius: 20px;
+    margin: 15px 20px 15px 0px;
+    border-radius: 25px;
     box-shadow: 1px 2px 8px 2px #c4c4c4;
     background-color: #f5f5f5;
+}
+
+.operation-steps li:hover{
+    background-color:#9256dc24;
+}
+
+.operation-steps li:hover .operation-icon{
+    color:#9356dc;
 }
 
 .number {
@@ -99,7 +162,7 @@ li {
 }
 
 .operation-steps li p {
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 20px;
 }
 
@@ -113,6 +176,14 @@ li {
     display: flex;
     flex-direction: column;
 }
+
+.restaurant h3{
+    margin: 50px 0px 10px 20px ;
+    font-size:xx-large;
+    font-weight: bolder;
+   
+}
+
 figure {
     margin: 0;
 }
@@ -154,8 +225,20 @@ figcaption{
     align-items: center;
 }
 
+.caption h4{
+    font-size: x-large;
+    font-weight:bold;
+    margin: 20px 0px 10px 0px;
+}
 
+.caption p{
+    font-size: large;
+    margin: 0px 0px 10px 0px;
+}
 
+.fa-heart:hover {
+    
+}
 
 /***********************
 ****     Footer     ****
@@ -166,7 +249,7 @@ footer{
 }
 
 footer img{
-    width: 20%;
+    width: 130px;
     filter: invert(100%);
 }
 
@@ -205,6 +288,8 @@ footer a{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-top: -50px;
+    padding-left:10px ;
+    padding-right:10px ;
     position: relative;
 }
 
@@ -215,15 +300,17 @@ footer a{
     align-items: center;
     margin: 0px 10px 0px 10px;
     padding-top: 30px;
+    padding-right: 10px;
 }
 
 .menu-title h2{
     font-family: "Shrikhand", sans-serif; ;
     margin: 0;
+    
 }
 
 .menu h3{
-    color:#aaa;
+    color:rgb(123, 119, 119);
     margin: 30px 0px 0px 10px;
     font-size: large;
 }
@@ -256,6 +343,7 @@ footer a{
 .details p {
     margin: 5px;
     font-size: small;
+        color: rgb(123, 119, 119);
 }
 .btn-order{
     text-align: center;
@@ -264,6 +352,11 @@ footer a{
 }
 
 .btn-order button{
+    background-image:linear-gradient(#ff79da,#9356dc );
+    color: #fff;
+    box-shadow: 1px 2px 8px 2px #c4c4c4;
+    cursor: pointer;
+    border: inherit;
     border-radius: 30px;
     font-size: 100%;
     width: 250px;
@@ -271,3 +364,7 @@ footer a{
 }
 
 
+.btn-order button:hover{
+opacity: 0.8;
+box-shadow: 1px 2px 8px 2px #2d2c2c;
+}
