@@ -1,6 +1,11 @@
 # OmfProject
 OCR - Projet N°3 Ohmyfood - Dynamisez une page web avec des animations CSS
 
+Objectifs
+
+Développer un site proposant le menu de 4 grands restaurants parisiens.
+Permettre la réservation en ligne et la composition de menus.
+
 Identité graphique :
 
     Colorimétire :
