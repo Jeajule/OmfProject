@@ -1,12 +1,14 @@
 # OmfProject
 OCR - Projet N°3 Ohmyfood - Dynamisez une page web avec des animations CSS
 
-Objectifs
+🟣 Objectifs
 
 Développer un site proposant le menu de 4 grands restaurants parisiens.
 Permettre la réservation en ligne et la composition de menus.
 
-Identité graphique :
+🟣 Livrables
+
+ Identité graphique :
 
     Colorimétire :
       Primaire :   #9356DC
@@ -21,7 +23,7 @@ Identité graphique :
   
 Approche mobile-first mais le site devar néamoins être responsive Desktop, tablette, mobile). Compatible Chrome et Firefox.
   
-🟣 Contenu des pages
+ Contenu des pages
 
     Page d’accueil (x1)
       XX  ● Affichage de la localisation des restaurants. 
@@ -42,7 +44,7 @@ Approche mobile-first mais le site devar néamoins être responsive Desktop, tab
       XX  ● Sur les pages de menu, il contient en plus un bouton de retour vers la page d’accueil
 
 
-🟣 Effets graphiques et animations
+Effets graphiques et animations
 
 Les effets accessibles au clic ou au survol devront utiliser les animations ou transitions CSS, pas de JavaScript ni de librairie.
 
