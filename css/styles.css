@@ -492,8 +492,45 @@ box-shadow: 1px 2px 8px 2px #2d2c2c;
     /* Animation apparition du menu */
 
     .dishes{
-        animation : fadein 2s ;
+        animation : fadein 1s ;
     }
+
+    .cloven1 {
+        animation-delay: 50ms;
+        animation-fill-mode: forwards;
+        opacity: 0;
+      }
+      
+      .cloven2 {
+        animation-delay: 150ms;
+        animation-fill-mode: forwards;
+        opacity: 0;
+      }
+      
+      .cloven3 {
+        animation-delay: 300ms;
+        animation-fill-mode: forwards;
+        opacity: 0;
+      }
+
+      .cloven4 {
+        animation-delay: 450ms;
+        animation-fill-mode: forwards;
+        opacity: 0;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     @keyframes fadein{
         from {
