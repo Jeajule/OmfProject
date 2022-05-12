@@ -386,25 +386,16 @@ footer a{
 
     display: flex;
     align-items: center;
-
-    font-weight:300;
 }
 
-.suggest{
-    padding-left: 14px;
-    margin: 0;
-
-    font-weight:bold;
-}
-
-.partner{
+footer p{
     padding-left: 8px;
     margin: 0;
-
-    font-weight:bold;
 }
 
-
+.mention{
+    font-weight: 100;
+}
 
 /********************************
 ****     Pages restaurant    ****
@@ -496,7 +487,6 @@ footer a{
 
 .details{
     font-size: 14px;
-    color: rgb(123, 119, 119);
     font-weight: 300;
 }
 .price {
@@ -587,7 +577,7 @@ box-shadow: 1px 2px 8px 2px #2d2c2c;
         
         margin: auto;
         font-size: 23px;
-        color: #f2f2f2;
+        color: white;
         transform: rotate(360deg);
         transition:  1s;
     }
