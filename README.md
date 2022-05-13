@@ -1,6 +1,8 @@
 # OmfProject
 OCR - Projet N°3 Ohmyfood - Dynamisez une page web avec des animations CSS
 
+lien vers le site : https://jeajule.github.io/OmfProject/
+
 🟣 Objectifs
 
 Développer un site proposant le menu de 4 grands restaurants parisiens.
